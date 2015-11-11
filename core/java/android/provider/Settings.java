@@ -3705,6 +3705,12 @@ public final class Settings {
          * @hide
          */
         public static final String KEY_CAMERA_DOUBLE_TAP_ACTION = "key_camera_double_tap_action";
+        
+        /**
+         * Enable double tap gesture anywhere on the lock screen put device to sleep
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_ANYWHERE = "double_tap_sleep_anywhere";
 
         /** @hide */
         public static final Validator KEY_VALIDATOR = new Validator() {
